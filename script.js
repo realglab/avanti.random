@@ -2,7 +2,7 @@ let generatedNumbers = [];
 
 function generateRandomNumber() {
     const min = 11111;
-    const max = 99999;
+    const max = 99999999;
     const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 
     if (!generatedNumbers.includes(randomNumber)) {
